@@ -11,8 +11,8 @@ public class GradeMessage {
 		System.out.println("Enter your grade: ");
 		Scanner scanner = new Scanner(System.in);
 		String grade = scanner.next();
-		scanner.close()
-		;
+		scanner.close();
+
 		String message;
 		
 		switch(grade) {
